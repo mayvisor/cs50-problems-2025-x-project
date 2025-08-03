@@ -1,0 +1,46 @@
+body {
+    font-family: Papyrus, fantasy;
+    background-color: #80A69D;
+    padding: 20px;
+    color: #171C21;
+    text-align: center;
+}
+
+nav {
+    background-color: #B5D5F5;
+    padding: 40px 55px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    box-shadow 0 0 10px rgba(0,0,0,0,05);
+}
+
+nav a {
+    text-decoration: underline;
+    margin-right: 15px;
+    color: #020A12
+    font-weight: bold;
+}
+
+h1, h2{
+    color: #0A0A0A;
+    text-align: center;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 8px 12px
+    font-size: 1rem;
+}
+
+#hyperfocus-timer {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #AB0E0E;
+}
+
+.mini-timers div {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+

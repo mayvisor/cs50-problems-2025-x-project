@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}
+    Tasks
+{% endblock %}
+
+{% block content %}
+<h1>What I've accomplished today!</h1>
+<form method="post">
+    <input type="text" name="task" placeholder="Describe your task" required>
+    <button type="submit">Save</button>
+</form>
+<ul>
+    {% for task in tasks %}
+        <li>{{ task.timestamp }} – {{ task.description }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

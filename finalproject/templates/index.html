@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}
+    Timer
+{% endblock %}
+
+{% block content %}
+<h1>Hyperfocus Timer</h1>
+<div id="hyperfocus-timer">15:00</div>
+<button onclick="startHyperfocus()">Hyperfocus ON</button>
+<button onclick="resetHyperfocus()">Reset</button>
+
+<h2>Mini Timers</h2>
+<div class="mini-timers">
+    <input type="number" id="mini-time" placeholder="Enter minutes" />
+    <button onclick="addMiniTimer()">Add Timer</button>
+    <div id="mini-timer-list"></div>
+</div>
+
+{% endblock %}
